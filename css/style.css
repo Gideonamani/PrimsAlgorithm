@@ -1,0 +1,11 @@
+h1 {
+	background-color: turquoise;
+	margin: 12px;
+	text-align: center;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.what {
+	text-align: center;
+}

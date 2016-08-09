@@ -13,7 +13,9 @@ var newVertices = [];
 var count = startingVertices-1;
 
 function setup() {
-	createCanvas(800,500)
+	canvas = createCanvas(800,500);
+	canvas.parent('canv');
+
 	for (var i = 0; i < startingVertices; i++) {
 		var v = createVector(random(width), random(height));
 		vertices.push(v);
@@ -31,7 +33,7 @@ function mousePressed () {
 }
 
 function draw() {
-	background(151);
+	background(211);
 	edgeDetector();
 }
 
@@ -133,4 +135,3 @@ function edgeDetector () {
 	}
 	//----------------------------------------
 }
-	
